@@ -1,0 +1,247 @@
+.footer {
+max-width: 1440px;
+margin: 0 auto;
+  color: #fff;
+  direction: rtl;
+  font-family: var(--font-family-persian);
+}
+
+.compactFooter {
+  display: none;
+  width: min(270px, 100%);
+  height: 114px;
+  padding: 12px 14px;
+  gap: 18px;
+  background: linear-gradient(rgba(12, 12, 12, .67), rgba(12, 12, 12, .67)), url("../../../public/images/banners/c0a6324323879f9f8eb72cd3ec37eb55f5c078b5.jpg") center 54% / cover;
+  color: #fff;
+  font-size: 7px;
+  text-align: right;
+}
+
+.compactFooter > div {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 5px;
+}
+
+.compactFooter h2 {
+  margin: 0 0 2px;
+  font-size: 8px;
+  font-weight: 600;
+}
+
+.compactFooter a {
+  color: inherit;
+  line-height: 1.15;
+  white-space: nowrap;
+}
+
+.compactSocial {
+  justify-content: flex-start;
+  gap: 7px;
+  margin-top: 1px;
+}
+
+.compactSocial a,
+.compactSocial svg {
+  width: 11px;
+  height: 11px;
+}
+
+.mainFooter {
+  min-height: 240px;
+  padding: 25px 7.6% 24px;
+  background: linear-gradient(rgba(12, 12, 12, .68), rgba(12, 12, 12, .68)), url("../../../public/images/banners/c0a6324323879f9f8eb72cd3ec37eb55f5c078b5.jpg") center 54% / cover;
+}
+
+.footerContent {
+  display: grid;
+  grid-template-columns: 150px 200px minmax(0, 1fr);
+  align-items: start;
+  column-gap: 42px;
+  max-width: 920px;
+  margin: 0 auto;
+}
+
+.footerContent section {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.footerContent h2 {
+  margin: 0 0 12px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  white-space: nowrap;
+}
+
+.footerContent section > a {
+  margin-bottom: 10px;
+  color: #fff;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 18px;
+  white-space: nowrap;
+}
+
+.socialLinks {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  height: 18px;
+}
+
+.socialLinks a,
+.socialLinks svg {
+  display: block;
+  width: 18px;
+  height: 18px;
+}
+
+.socialLinks svg {
+  color: #fff;
+}
+
+.messageColumn {
+  min-width: 0;
+}
+
+.messageForm {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  gap: 18px;
+  width: 100%;
+  direction: rtl;
+}
+
+.inputFields,
+.messageField {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.inputFields input,
+.messageField textarea {
+  width: 100%;
+  border: 1px solid rgba(255, 255, 255, .38);
+  border-radius: 3px;
+  outline: none;
+  background: rgba(12, 12, 12, .12);
+  color: #fff;
+  font-family: inherit;
+  font-size: 10px;
+  text-align: right;
+}
+
+.inputFields input {
+  height: 31px;
+  padding: 0 10px;
+}
+
+.messageField textarea {
+  height: 109px;
+  padding: 12px 10px;
+  resize: none;
+}
+
+.inputFields input::placeholder,
+.messageField textarea::placeholder {
+  color: rgba(255, 255, 255, .9);
+  opacity: 1;
+}
+
+.messageField button {
+  width: 138px;
+  height: 31px;
+  border: 1px solid rgba(255, 255, 255, .38);
+  border-radius: 3px;
+  background: rgba(255, 255, 255, .08);
+  color: #fff;
+  font-family: inherit;
+  font-size: 10px;
+}
+
+@media screen and (max-width: 868px) {
+  .footer {
+    width: 100%;
+    margin: 0;
+  }
+
+  .compactFooter {
+    display: flex;
+    width: 100%;
+  }
+
+  .mainFooter {
+    display: none;
+    min-height: 0;
+    padding: 16px 14px;
+  }
+
+  .footerContent {
+    grid-template-columns: 1fr 1fr;
+    column-gap: 16px;
+    row-gap: 16px;
+  }
+
+  .messageColumn {
+    grid-column: 1 / -1;
+    grid-row: 2;
+  }
+
+  .messageColumn h2 {
+    align-self: flex-start;
+  }
+
+  .messageForm {
+    gap: 10px;
+  }
+}
+
+@media screen and (max-width: 680px) {
+  .mainFooter {
+    padding: 14px 12px;
+  }
+
+  .footerContent {
+    grid-template-columns: 1fr 1fr;
+    column-gap: 10px;
+    row-gap: 12px;
+  }
+
+  .footerContent h2 {
+    margin-bottom: 8px;
+    font-size: 13px;
+  }
+
+  .messageForm {
+    grid-template-columns: 1fr;
+    gap: 8px;
+  }
+
+  .footerContent section > a {
+    margin-bottom: 6px;
+    font-size: 9px;
+    line-height: 15px;
+  }
+
+  .inputFields input {
+    height: 28px;
+  }
+
+  .messageField textarea {
+    height: 68px;
+    padding: 8px 10px;
+  }
+
+  .messageField button {
+    width: 100%;
+    height: 28px;
+  }
+}

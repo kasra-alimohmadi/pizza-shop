@@ -1,0 +1,147 @@
+.slider_container {
+  position: relative;
+  width: 100%;
+  max-width: 1440px;
+  height: 336px;
+  margin: 0 auto;
+  margin-top: 20px;
+   margin-bottom: 20px;
+}
+
+.slider_image {
+  display: block;
+  width: 100%;
+  height: 336px;
+  object-fit: cover;
+}
+
+.slider_img_canteiner {
+  position: relative;
+  z-index: 0;
+}
+
+.slider_img_canteiner::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-color: #0000008c;
+  z-index: 1;
+}
+
+.slider_content {
+  position: absolute;
+  z-index: 2;
+  top: 128px;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  color: var(--color-white);
+}
+
+.slider_button {
+  position: absolute;
+  z-index: 2;
+  top: 228px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.slider_container :global(.swiper-pagination) {
+  background-image: url("../../../public/images/icons/Rectangle\ 2.png");
+  background-repeat: no-repeat;
+
+  background-position: center;
+  position: absolute;
+  width: 154px;
+  height: 33px;
+  bottom: 0 !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.slider_container :global(.swiper-pagination-bullet) {
+  width: 4px;
+  height: 4px;
+  background: var(--color-text-secondary);
+}
+
+.slider_container :global(.swiper-pagination-bullet-active) {
+  flex-basis: 8px;
+  width: 8px;
+  height: 8px;
+
+  border: 1px solid var(--color-white);
+  border-radius: 50%;
+
+  background: var(--color-primary);
+}
+.slider_container :global(.swiper-button-next),
+.slider_container :global(.swiper-button-prev) {
+  width: 23px;
+  height: 23px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #fff;
+}
+
+.slider_container :global(.swiper-button-prev) {
+  left: 16px;
+}
+
+.slider_container :global(.swiper-button-next) {
+  right: 16px;
+}
+
+.slider_container :global(.swiper-button-next::after),
+.slider_container :global(.swiper-button-prev::after) {
+  font-size: 23px;
+  color: #fff;
+}
+/* =========================
+   Mobile
+========================= */
+
+@media screen and (max-width: 868px) {
+  .slider_container {
+    height: 176px;
+  
+  }
+
+  .slider_content {
+    width: 100%;
+    top: 40px;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+
+  .slider_container .slider_button {
+    top: auto;
+    bottom: 37px;
+    width: 91px;
+    height: 24px;
+    font-size: 10px;
+  }
+
+  .slider_container :global(.swiper-pagination) {
+    width: 82px;
+    height: 17px;
+
+    top: auto !important;
+    background-size: auto 17px;
+  }
+
+  .slider_image {
+    height: 176px;
+  }
+}
+
+/* =========================
+   Small Mobile
+========================= */
+
+@media screen and (max-width: 680px) {
+  .slider_container :global(.swiper-button-next),
+  .slider_container :global(.swiper-button-prev) {
+    display: none;
+  }
+}

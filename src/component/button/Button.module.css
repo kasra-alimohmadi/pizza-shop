@@ -1,0 +1,118 @@
+.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--spacing-sm);
+  padding: var(--padding-8) var(--padding-16);
+  box-sizing: border-box;
+  border: 1px solid transparent;
+  border-radius: var(--radius-sm);
+  color: inherit;
+  font-family: var(--font-family);
+  font-weight: var(--font-weight-medium);
+  line-height: var(--line-height-md);
+  text-align: center;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+.primary {
+  border-color: var(--color-primary);
+  background-color: var(--color-primary);
+  color: var(--color-white);
+}
+
+.primary:not(:disabled):hover {
+  border-color: var(--color-green-shade-9);
+  background-color: var(--color-green-shade-9);
+}
+
+.primary:not(:disabled):active {
+  border-color: var(--color-green-shade-10);
+  background-color: var(--color-green-shade-10);
+}
+
+.primary[aria-pressed="true"]:not(:disabled) {
+  border-color: var(--color-green-shade-10);
+  background-color: var(--color-green-shade-10);
+}
+
+.outline {
+  border-color: var(--color-primary);
+  background-color: transparent;
+  color: var(--color-primary);
+}
+
+.outline:not(:disabled):hover {
+  border-color: var(--color-green-shade-9);
+  color: var(--color-green-shade-9);
+}
+
+.outline:not(:disabled):active {
+  border-color: var(--color-green-shade-10);
+  color: var(--color-green-shade-10);
+}
+.outline[aria-pressed="true"]:not(:disabled) {
+  border-color: var(--color-green-shade-10);
+  color: var(--color-green-shade-10);
+}
+
+.secondary {
+  background-color: transparent;
+  color: var(--color-primary);
+}
+
+.secondary:not(:disabled):hover {
+  color: var(--color-green-shade-9);
+}
+
+.secondary:not(:disabled):active {
+  color: var(--color-green-shade-10);
+}
+
+.secondary[aria-pressed="true"]:not(:disabled) {
+  color: var(--color-green-shade-10);
+}
+
+.button:disabled {
+  border-color: transparent;
+  background-color: var(--color-gray-3);
+  color: var(--color-gray-4);
+  cursor: not-allowed;
+}
+
+.outline:disabled {
+  border-color: var(--color-gray-4);
+  background-color: transparent;
+}
+
+.secondary:disabled {
+  border-color: transparent;
+  background-color: transparent;
+}
+
+.size32 {
+  width: 114px;
+  height: 32px;
+  gap: var(--spacing-xs);
+  padding: var(--padding-8);
+  font-size: var(--font-size-sm);
+}
+
+.size40 {
+  width: 174px;
+  height: 40px;
+  font-size: var(--font-size-md);
+}
+
+.size48 {
+  width: 174px;
+  height: 48px;
+  font-size: var(--font-size-md);
+}
+
+.size56 {
+  width: 174px;
+  height: 56px;
+  font-size: var(--font-size-md);
+}

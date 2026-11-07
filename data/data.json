@@ -1,0 +1,124 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "title": "پیتزا",
+      "image": "/images/products/foode.png",
+      "product_card_discant": 100000,
+      "product_card_percent": 20,
+      "star": 4.5,
+      "product_card_rate": 100,
+      "price": 500000
+    },
+    {
+      "id": 2,
+      "title": "پیتزا",
+      "image": "/images/products/foode.png",
+      "product_card_discant": 100000,
+      "product_card_percent": 20,
+      "star": 4.5,
+      "product_card_rate": 100,
+      "price": 500000
+    },
+    {
+      "id": 3,
+      "title": "پیتزا",
+      "image": "/images/products/foode.png",
+      "product_card_discant": 100000,
+      "product_card_percent": 20,
+      "star": 4.5,
+      "product_card_rate": 100,
+      "price": 500000
+    },
+    {
+      "id": 4,
+      "title": "پیتزا",
+      "image": "/images/products/foode.png",
+      "product_card_discant": 100000,
+      "product_card_percent": 20,
+      "star": 4.5,
+      "product_card_rate": 100,
+      "price": 500000
+    },
+    {
+      "id": 5,
+      "title": "پیتزا",
+      "image": "/images/products/foode.png",
+      "product_card_discant": 100000,
+      "product_card_percent": 20,
+      "star": 4.5,
+      "product_card_rate": 100,
+      "price": 500000
+    },
+    {
+      "id": 6,
+      "title": "پیتزا",
+      "image": "/images/products/foode.png",
+      "product_card_discant": 100000,
+      "product_card_percent": 20,
+      "star": 4.5,
+      "product_card_rate": 100,
+      "price": 500000
+    },
+    {
+      "id": 7,
+      "title": "پیتزا",
+      "image": "/images/products/foode.png",
+      "product_card_discant": 100000,
+      "product_card_percent": 20,
+      "star": 4.5,
+      "product_card_rate": 100,
+      "price": 500000
+    },
+    {
+      "id": 8,
+      "title": "پیتزا",
+      "image": "/images/products/foode.png",
+      "product_card_discant": 100000,
+      "product_card_percent": 20,
+      "star": 4.5,
+      "product_card_rate": 100,
+      "price": 500000
+    },
+    {
+      "id": 9,
+      "title": "پیتزا",
+      "image": "/images/products/foode.png",
+      "product_card_discant": 100000,
+      "product_card_percent": 20,
+      "star": 4.5,
+      "product_card_rate": 100,
+      "price": 500000
+    }
+  ],
+  "sliders": [
+    {
+      "id": 1,
+      "image": "/images/banners/c0a6324323879f9f8eb72cd3ec37eb55f5c078b5.jpg"
+    },
+    {
+      "id": 2,
+      "image": "/images/banners/c0a6324323879f9f8eb72cd3ec37eb55f5c078b5.jpg"
+    },
+    {
+      "id": 3,
+      "image": "/images/banners/c0a6324323879f9f8eb72cd3ec37eb55f5c078b5.jpg"
+    }
+  ],
+  "footer": [
+    {
+      "id": 1,
+      "quickLinks": [
+        { "label": "پرسش‌های متداول", "href": "#faq" },
+        { "label": "قوانین ترخینه", "href": "#rules" },
+        { "label": "حریم خصوصی", "href": "#privacy" }
+      ],
+      "branches": ["شعبه اکباتان", "شعبه چالوس", "شعبه اقدسیه", "شعبه ونک"],
+      "socialLinks": [
+        { "icon": "telegram", "label": "تلگرام", "href": "#telegram" },
+        { "icon": "instagram", "label": "اینستاگرام", "href": "#instagram" },
+        { "icon": "twitter", "label": "توییتر", "href": "#twitter" }
+      ]
+    }
+  ]
+}

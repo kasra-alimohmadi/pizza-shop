@@ -1,0 +1,98 @@
+:root {
+  /* Colors from the Tarkhineh Figma token sheet. */
+  --color-white: #ffffff;
+  --color-black: #0c0c0c;
+  --color-text: #353535;
+  --color-text-secondary: #adadad;
+  --color-primary: #417f56;
+  --color-background: var(--color-white);
+  --color-border: var(--color-text-secondary);
+  --color-button: var(--color-primary);
+  --color-button-hover: #356947;
+  --color-success: var(--color-primary);
+  --color-error: #b42318;
+
+  /* Typography values from the Figma text styles. */
+  --font-family-persian: "Estedad-VF", Tahoma, sans-serif;
+  --font-family-latin: "Estedad-VF", sans-serif;
+  --font-family: var(--font-family-persian);
+  --font-size-xs: 10px;
+  --font-size-sm: 12px;
+  --font-size-md: 16px;
+  --font-size-lg: 18px;
+  --font-size-xl: 20px;
+  --font-size-2xl: 24px;
+  --font-size-3xl: 32px;
+  --font-size-4xl: 40px;
+  --font-size-5xl: 44px;
+  --font-size-6xl: 56px;
+  --font-size-7xl: 64px;
+  --font-weight-regular: 400;
+  --font-weight-medium: 500;
+  --font-weight-semibold: 600;
+  --font-weight-bold: 700;
+  --line-height-sm: 1.4;
+  --line-height-md: 1.8;
+  --line-height-lg: 1.2;
+
+  /* Existing component dimensions and shared layout values. */
+  --spacing-xs: 4px;
+  --spacing-sm: 8px;
+  --spacing-md-compact: 16px;
+  --spacing-md: 20px;
+  --spacing-md-wide: 24px;
+  --spacing-lg: 24px;
+  --spacing-xl-wide: 32px;
+  --spacing-xl: 32px;
+  --padding-8: 8px;
+  --padding-16: 16px;
+  --padding-24: 24px;
+  --padding-32: 32px;
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --radius-round: 50%;
+  --shadow-sm: 0 2px 8px rgba(12, 12, 12, 0.08);
+  --container-width: 1224px;
+  --navbar-height: 60px;
+  --navbar-item-size: 40px;
+  --breakpoint-mobile: 576px;
+  --breakpoint-tablet: 768px;
+  --breakpoint-desktop: 1200px;
+
+  /* Green palette */
+  --color-green-tint-2: #cae4d3;
+  --color-green-tint-3: #b0d7bd;
+  --color-green-tint-4: #96c9a7;
+  --color-green-tint-5: #7cbc91;
+  --color-green-tint-6: #61ae7b;
+  --color-green-tint-7: #4e9968;
+  --color-green-shade-8: #396f4b;
+  --color-green-shade-9: #315f41;
+  --color-green-shade-10: #294f36;
+  --color-green-shade-11: #21402b;
+  --color-green-shade-12: #183020;
+  --color-green-shade-13: #102016;
+  --color-green-shade-14: #08100b;
+
+  /* Neutral palette */
+  --color-gray-1: #f9f9f9;
+  --color-gray-2: #e1e1e1;
+  --color-gray-3: #ededed;
+  --color-gray-4: #cbcbcb;
+  --color-gray-5: #cbcbcb;
+  --color-gray-6: #adadad;
+  --color-gray-7: #757575;
+  --color-gray-8: #353535;
+  
+
+  /* State colors */
+  --color-error: #c30000;
+  --color-error-light: #ed2e2e;
+  --color-error-extralight: #fff2f2;
+  --color-success-state: #00966d;
+  --color-success-light: #00ba88;
+  --color-success-extralight: #f3fdfa;
+  --color-warning: #a9791c;
+  --color-warning-light: #f4b740;
+  --color-warning-extralight: #fff8e1;
+}
